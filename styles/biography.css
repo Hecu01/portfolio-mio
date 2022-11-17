@@ -1,0 +1,96 @@
+@charset "UTF-8";
+#bars:hover {
+  background-color: #0066ff;
+}
+
+/*Biography*/
+.biography {
+  background: rgba(0, 119, 128, 0.349);
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 80px 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0px 0px 5px #00fff2;
+          box-shadow: 0px 0px 5px #00fff2;
+}
+
+.biography .contenedor-biography {
+  /*Contenido total de la biografía*/
+  width: 500px;
+}
+
+.biography .contenedor-biography .presentacion {
+  /*Tarjeta de presentación parecido al de Wordpress*/
+
+  text-shadow: 2px 2px 1px #000;
+  padding: 50px 35px;
+}
+
+.biography .contenedor-biography .presentacion h1 {
+  font-size: 4.5rem;
+  font-weight: 600;
+  color: white;
+}
+
+.biography .contenedor-biography .presentacion h2 {
+  font-size: 35px;
+  font-weight: 600;
+  color: beige;
+}
+
+.biography .contenedor-biography .presentacion h2 strong {
+  color: cyan;
+}
+
+.biography .contenedor-biography .presentacion img {
+  width: 100%;
+}
+
+.biography .contenedor-biography p {
+  margin-top: 20px;
+  color: white;
+  font-size: 1.3rem;
+  text-shadow: 1.3px 1.3px 1px #000;
+}
+
+.biography .contenedor-biography .presentacion {
+    background-color: rgba(0, 255, 255, 0.1);
+    -webkit-box-shadow: 0px 0px 5px cyan;
+            box-shadow: 0px 0px 5px cyan;
+  }
+/* Responsive desing */
+@media (max-width: 650px) {
+    #programador {
+      /* Tarjeta de presentación con foto con celeste */
+      font-size: 35px;
+      font-weight: 600;
+    }
+    .contenedor-biography {
+      width: 100%;
+    }
+    .contenedor-biography .presentacion {
+      width: 88%;
+      margin: auto;
+    }
+    .contenedor-biography p {
+      width: 80%;
+      margin: auto;
+    }
+  }
+  
+  @media (max-width: 469px) {
+    .biography .contenedor-biography .presentacion h1 {
+      font-size: 3em;
+    }
+    .biography .contenedor-biography .presentacion h2 {
+      margin-top: 20px;
+      font-size: 2em;
+    }
+    #programador {
+      font-size: 1em;
+    }
+}

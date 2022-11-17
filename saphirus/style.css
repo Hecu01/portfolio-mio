@@ -1,0 +1,103 @@
+/**/
+.contenedor-principal{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contenedor{
+	border: 5px solid #000;
+	width: 350px;
+	height: auto;
+	background: rgb( 136, 78, 160 );
+    padding: 30px;
+    padding-top: 0px;
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+	color: #fff;
+}
+.formulario{
+	display: grid;
+	justify-items:center;
+}
+h1{
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	font-weight: bold;
+}
+input{
+
+	box-shadow: 0px 0px 1px #000;
+}
+/* ID */
+
+.id{
+	display: flex;
+}
+.id input{
+	width: 40px; 
+	margin: 0px 5px;
+}
+.fecha{
+	display: flex;
+}
+.fecha input{
+
+	width: 130px; 
+}
+.row-1, .row-2 {
+	margin-bottom: 5px;
+	display: flex;
+}
+.row-1 div, .row-2 div {
+	margin: 0px 10px;
+}
+.img{
+	width: 100px;
+	height: 100px;
+}
+.img img{
+	width: 100%;
+	border-radius: 100%;
+
+}
+.header-form{
+	display: flex;
+	align-items: center;
+	margin: 15px 0px;
+}
+.divisor{		
+	margin: 0px 5px;
+
+}
+
+.precio{
+	display: flex;
+	margin: 10px 0px;
+	margin-top: 20px;
+}
+[type="number"]{
+	width: 70px;
+}
+
+.variable-1{
+	margin-bottom: 20px;
+}
+
+.bottom-form{
+	background-color: #fff;
+	padding: 5px;
+	border-radius: 10px;
+	display: grid;
+	justify-items: center;
+}
+.resetear{
+	padding-bottom: 5px;
+	border-bottom: 1px solid #000;
+}
+.cargar{
+	
+	padding-top: 5px;
+}
